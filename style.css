@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(24, 204, 201);
+    align-items: center;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h3{
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.2  rem;
+    text-align: center;
+    display: inline-block;
+    align-content: center;
+}
+.players{
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 18rem;
+}
+
+.dice{
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 7rem;
+    height: 15rem;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+    font-size: large;
+}
